@@ -1,4 +1,4 @@
-ifconfig = require('./../lib/index'); // 
+ifconfig = require('./../lib/index'); 
 console.log('');
 
 ifconfig.get(function(json){
