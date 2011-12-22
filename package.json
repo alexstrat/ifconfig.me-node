@@ -1,0 +1,20 @@
+{
+  "author": "Alexandre Lacheze (alexstrat)",
+  "name": "ifconfig.me",
+  "description": "Get your external ifconfig in Node.js using web-service ifconfig.me",
+  "version": "0.0.1",
+  "homepage": "http://github.com/alextsrat/ifconfig.me-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alextsrat/ifconfig.me-node.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/showme.js"
+  },
+  "engines": {
+    "node": "~v0.4.12"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
