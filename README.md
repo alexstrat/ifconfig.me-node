@@ -45,6 +45,12 @@ ifconfig.get(function(json){
 
 ```
 
+## Test it
+
+```bash
+$ node test/showme.js
+```
+
 ## LICENCE
 
 The MIT licence.
