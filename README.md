@@ -1,7 +1,7 @@
 ## What ?
 Query the [ifconfig.me](ifconfig.me) server to know your external network configuration (external IP and remote host) inside [Node.js](nodejs.org).
 
-This is not a big deal, but it's done here and useable as NPM package. It makes a GET request to `ifconfig.me/all.json` and parses the response.
+This is not a big deal, but it's done here and useable as NPM package. It makes a GET request to `ifconfig.me/all.json` and parses the response to provide it in a callback.
 
 ## Install
 
@@ -13,14 +13,16 @@ $ npm install http://github.com/alexstrat/ifconfig.me-node
 
 ## Usage
 
-You've geot 3 methods : 
+You've got 3 methods : 
+
   - `get`           - to get the raw JSON provided by `ifconfig.me`
   - `getIP`         - to get directly your external IP
   - `getRemoteHost` - to get directly your remote host
 
 These methods take 2 arguements :
+
   - `callback`  - when the erver responds and the response is valid this function is called with the result as argement.
-  - `errback`   - __optionnal__ when something goes wrong, this function is called with the error object as argument.
+  - `errback`   - _optionnal_ when something goes wrong, this function is called with the error object as argument.
   
 ```js
 ifconfig = require('ifconfig.me');
