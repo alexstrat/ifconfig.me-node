@@ -8,7 +8,7 @@ This is not a big deal, but it's done here and useable as NPM package. It makes 
 For the moment :
 
 ```bash
-$ npm install http://github.com/alexstrat/ifconfig.me-node
+$ npm install https://github.com/alexstrat/ifconfig.me-node/tarball/master
 ```
 
 ## Usage
