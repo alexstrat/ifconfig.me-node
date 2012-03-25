@@ -13,7 +13,7 @@
     "test": "node test/showme.js"
   },
   "engines": {
-    "node": "~v0.4.12"
+    "node": ">=0.4"
   },
   "dependencies": {},
   "devDependencies": {}
